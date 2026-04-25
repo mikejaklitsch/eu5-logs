@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eu5-logs"
+version = "1.0.0"
+description = "EU5 log file analyzer - normalizes errors into pattern groups, scores by actionability"
+requires-python = ">=3.9"
+
+[project.scripts]
+eu5-logs = "eu5_logs.cli:main"
