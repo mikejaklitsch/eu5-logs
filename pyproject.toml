@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pdx-logs"
 version = "2.0.0"
-description = "Paradox (EU5) log analyzer - stitches rotated logs, scopes to the current session, normalizes errors into pattern groups, scores by actionability"
+description = "Paradox (EU5) log analyzer: stitches rotated logs, scopes to the current session, groups errors into patterns ranked by actionability"
 requires-python = ">=3.9"
 
 [project.scripts]
